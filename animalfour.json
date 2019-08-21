@@ -1,0 +1,36 @@
+var myCat = {
+    name:"Meow",
+    species: "cat",
+    favFood: "fish"
+};
+console.log(myCat.favFood);
+
+var thePets = [
+    {
+    name:"Meow",
+    species: "cat",
+    favFood: "fish"
+     },
+    
+    
+    {
+    name: "Rocky",
+    species: "dog",
+    favFood:"meat"    
+    }, 
+    
+    {
+     name: "Paddy",
+     species: "dog",
+     favFood: "carrots"
+
+    }, 
+
+{
+
+   name: "scissor",
+   species: "cat",
+   favFood: "cat food" 
+}
+
+]
