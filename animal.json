@@ -2,6 +2,9 @@ var myCat = {
     name:"Meow",
     species: "cat",
     favFood: "fish"
+    "foods": {
+    "likes": ["tuna", "catnip"],
+    "dislikes": ["ham", "zucchini"]
 };
 console.log(myCat.favFood);
 
@@ -10,19 +13,28 @@ var thePets = [
     name:"Meow",
     species: "cat",
     favFood: "fish"
+      "foods": {
+    "likes": ["ham", "milk"],
+    "dislikes": ["tuna", "cookies"]   
      },
     
     
     {
     name: "Rocky",
     species: "dog",
-    favFood:"meat"    
+    favFood:"meat"
+     "foods": {
+    "likes": ["tuna", "apple"],
+    "dislikes": ["milk", "coco"]
     }, 
     
     {
      name: "Paddy",
      species: "dog",
      favFood: "carrots"
+      "foods": {
+    "likes": ["tunafish", "lax"],
+    "dislikes": ["hamburger", "zucchinis"]
 
     }, 
 
@@ -31,6 +43,9 @@ var thePets = [
    name: "scissor",
    species: "cat",
    favFood: "cat food" 
+     "foods": {
+    "likes": ["turtles", "cats"],
+    "dislikes": ["hammies", "zucchero"]
 }
 
 ]
