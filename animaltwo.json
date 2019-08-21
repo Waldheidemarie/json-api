@@ -48,4 +48,9 @@ var thePets = [
     "dislikes": ["hammies", "zucchero"]
 }
 
-]
+];
+
+console.log(thePets[2].name); */
+//AJAX Asynchronus JavaScript And XML (now JSON)
+
+var ourRequest = new XMLHttoRequest();
